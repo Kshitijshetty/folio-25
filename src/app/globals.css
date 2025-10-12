@@ -1,0 +1,58 @@
+@import "tailwindcss";
+
+:root {
+  --background: #ffffff;
+  --foreground: #171717;
+}
+
+@font-face {
+  font-family: 'PPMori-Extralight';
+  src: url('/fonts/PPMori-ExtraLight.otf') format('opentype');
+}
+
+@font-face {
+  font-family: 'PPMori-ExtraLightItalic';
+  src: url('/fonts/PPMori-ExtraLightItalic.otf') format('opentype');
+}
+
+@font-face {
+  font-family: 'PPMori-Regular';
+  src: url('/fonts/PPMori-Regular.otf') format('opentype');
+}
+
+@font-face {
+  font-family: 'PPMori-RegularItalic';
+  src: url('/fonts/PPMori-RegularItalic.otf') format('opentype');
+}
+
+@font-face {
+  font-family: 'PPMori-SemiBold';
+  src: url('/fonts/PPMori-SemiBold.otf') format('opentype');
+}
+
+@font-face {
+  font-family: 'PPMori-SemiBoldItalic';
+  src: url('/fonts/PPMori-SemiBoldItalic.otf') format('opentype');
+}
+
+@theme inline {
+  --font-PPMori: PPMori-Extralight;
+  --font-PPMori-Regular: PPMori-Regular;
+  --font-PPMori-SemiBold: PPMori-SemiBold;
+  --color-text-light: #ffffff; 
+  --color-bg-dark: #1E1E1E;
+  --color-brand-orange: #F8771F;
+  --color-grid-line: #FFFFFF33;
+  --color-brand-purple: #8365C7;
+  --color-brand-teal:#00AA99;
+  --color-brand-blue:#399FD6;
+}
+
+
+body {
+  height: auto;
+  width: 100dvw;
+  background-color: var(--color-bg-dark);
+  overflow: auto;
+  scroll-behavior: auto;
+}
