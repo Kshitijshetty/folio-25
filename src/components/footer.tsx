@@ -1,5 +1,6 @@
-{/* eslint-disable-next-line @next/next/no-html-link-for-pages */}
+
 import React from 'react'
+import Link from 'next/link'
 
 const Footer = () => {
   return (
@@ -25,13 +26,7 @@ const Footer = () => {
           <div className="horizontal-line absolute top-[195px] md:top-[170px] w-full border-grid-line" />
           <div className="horizontal-line absolute top-[505px] md:top-[648px] w-full border-grid-line" />
           <div className="horizontal-line absolute top-[585px] md:top-[765px] w-full border-grid-line" />
-
         </div>
-
-       
-
-
-
 
         {/* Name */}
         <div className="absolute text-text-light font-PPMori-SemiBold text-[96px] md:text-[128px] top-[430px] md:top-[406px] left-[14px] md:left-[62px]">
@@ -41,13 +36,12 @@ const Footer = () => {
           Shetty
         </div>
 
-
         {/* Contact Section */}
         <div className="absolute left-[16px] md:left-[652px] top-[200px]  md:top-[39px] text-text-light font-PPMori-SemiBold text-[16px] md:text-[20px]">
           Contact
           <div className="mt-[12px] flex flex-col gap-2 font-PPMori text-[14px] md:text-[20px]">
             <a href="mailto:khitijshetty@gmail.com" className="hover:underline">khitijshetty@gmail.com</a>
-            <a href="https://www.linkedin.com/in/kshitij-shetty-03ks " className="hover:underline" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+            <a href="https://www.linkedin.com/in/kshitij-shetty-03ks" className="hover:underline" target="_blank" rel="noopener noreferrer">LinkedIn</a>
             <a href="https://github.com/Kshitijshetty" className="hover:underline" target="_blank" rel="noopener noreferrer">Github</a>
             <a href="https://drive.google.com/file/d/1lJRTuS9z36ybbHZxQff3itXo2vzhL3a4/view?usp=sharing" className="hover:underline font-PPMori-SemiBold" target="_blank" rel="noopener noreferrer">Resume</a>
           </div>
@@ -57,15 +51,14 @@ const Footer = () => {
         <div className="absolute left-[197px] md:left-[1011px] top-[200px] md:top-[39px] text-text-light font-PPMori-SemiBold text-[16px] md:text-[20px]">
           Navigation
           <div className="mt-[12px] flex flex-col gap-2 font-PPMori text-[14px] md:text-[20px]">
-            <a href="/#projects" className="hover:underline">Projects</a>
-            <a href="/pages/playground" className="hover:underline">PlayGround</a>
-            <a href="/pages/about" className="hover:underline">About Me</a>
+            <Link href="/#projects" className="hover:underline">Projects</Link>
+            <Link href="/pages/playground" className="hover:underline">PlayGround</Link>
+            <Link href="/pages/about" className="hover:underline">About Me</Link>
           </div>
         </div>
       </div>
     </main>
-  );
-};
+  )
+}
 
-export default Footer;
-
+export default Footer
