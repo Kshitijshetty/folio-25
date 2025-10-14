@@ -45,10 +45,10 @@ const Footer = () => {
         <div className="absolute left-[16px] md:left-[652px] top-[200px]  md:top-[39px] text-text-light font-PPMori-SemiBold text-[16px] md:text-[20px]">
           Contact
           <div className="mt-[12px] flex flex-col gap-2 font-PPMori text-[14px] md:text-[20px]">
-            <a href="#" className="hover:underline">khitijshetty@gmail.com</a>
-            <a href="https://www.linkedin.com/in/kshitij-shetty-03ks " className="hover:underline">LinkedIn</a>
-            <a href="https://github.com/Kshitijshetty" className="hover:underline">Github</a>
-            <a href="#" className="hover:underline font-PPMori-SemiBold">Resume</a>
+            <a href="mailto:khitijshetty@gmail.com" className="hover:underline">khitijshetty@gmail.com</a>
+            <a href="https://www.linkedin.com/in/kshitij-shetty-03ks " className="hover:underline" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+            <a href="https://github.com/Kshitijshetty" className="hover:underline" target="_blank" rel="noopener noreferrer">Github</a>
+            <a href="https://drive.google.com/file/d/1lJRTuS9z36ybbHZxQff3itXo2vzhL3a4/view?usp=sharing" className="hover:underline font-PPMori-SemiBold" target="_blank" rel="noopener noreferrer">Resume</a>
           </div>
         </div>
 
@@ -56,9 +56,9 @@ const Footer = () => {
         <div className="absolute left-[197px] md:left-[1011px] top-[200px] md:top-[39px] text-text-light font-PPMori-SemiBold text-[16px] md:text-[20px]">
           Navigation
           <div className="mt-[12px] flex flex-col gap-2 font-PPMori text-[14px] md:text-[20px]">
-            <a href="#" className="hover:underline">Projects</a>
-            <a href="#" className="hover:underline">PlayGround</a>
-            <a href="#" className="hover:underline">About Me</a>
+            <a href="/#projects" className="hover:underline">Projects</a>
+            <a href="/pages/playground" className="hover:underline">PlayGround</a>
+            <a href="/pages/about" className="hover:underline">About Me</a>
           </div>
         </div>
       </div>

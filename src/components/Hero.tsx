@@ -89,7 +89,7 @@ const Hero = () => {
       {/* First Name */}
       <div
         data-anim
-        className="absolute text-brand-orange font-PPMori-SemiBold text-[96px] md:text-[128px] bottom-[160px] md:bottom-[172px]"
+        className="absolute text-brand-orange font-PPMori-SemiBold text-[96px] md:text-[128px] bottom-[130px] md:bottom-[172px]"
       >
         Kshitij
       </div>
@@ -97,14 +97,14 @@ const Hero = () => {
       {/* Last Name */}
       <div
         data-anim
-        className="absolute text-brand-purple font-PPMori-SemiBold text-[96px] md:text-[128px] bottom-[64px] md:bottom-[56px] right-[12px] md:left-[212px]"
+        className="absolute text-brand-purple font-PPMori-SemiBold text-[96px] md:text-[128px] bottom-[34px] md:bottom-[56px] right-[12px] md:left-[212px]"
       >
         Shetty
       </div>
 
       <div
         data-anim
-        className="absolute flex md:flex-col flex-wrap md:gap-y-1 md:w-[537px] text-text-light font-PPMori text-[12px] md:text-[16px] bottom-[65px] md:bottom-[55px] left-[16px] md:left-[272px] leading-snug space-x-0.5 md:space-x-0"
+        className="absolute flex md:flex-col flex-wrap md:gap-y-1 md:w-[537px] text-text-light font-PPMori text-[12px] md:text-[16px] bottom-[35px] md:bottom-[55px] left-[16px] md:left-[272px] leading-snug space-x-0.5 md:space-x-0"
       >
         <span>
         <span className="font-PPMori-SemiBold">2+ years</span> experience desiging for  </span>
@@ -116,7 +116,7 @@ const Hero = () => {
       {/* Tagline */}
       <div
         data-anim
-        className="absolute flex md:flex-col flex-wrap md:gap-y-1 md:w-[537px] text-text-light font-PPMori text-[12px] md:text-[16px] bottom-[286px] md:bottom-[225px] right-[12px] md:left-[459px] leading-snug space-x-0.5 md:space-x-0"
+        className="absolute flex md:flex-col flex-wrap md:gap-y-1 md:w-[537px] text-text-light font-PPMori text-[12px] md:text-[16px] bottom-[256px] md:bottom-[225px] right-[12px] md:left-[459px] leading-snug space-x-0.5 md:space-x-0"
       >
         <span>
           I <span className="font-PPMori-SemiBold">Research, </span>

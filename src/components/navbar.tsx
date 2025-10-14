@@ -88,10 +88,12 @@ const Navbar = () => {
           </Link>
 
           <Link
-            href="/"
+            href="https://drive.google.com/file/d/1lJRTuS9z36ybbHZxQff3itXo2vzhL3a4/view?usp=sharing"
             ref={(el) => { linksRef.current[3] = el; }}
             onClick={() => setIsOpen(false)}
             className="bg-brand-orange opacity-0 px-[20px] py-[10px]"
+            target="_blank" 
+            rel="noopener noreferrer"
           >
             Resume
           </Link>
@@ -118,7 +120,7 @@ const Navbar = () => {
             </Link>
           </div>
 
-          <Link href="/" className="text-text-light font-PPMori text-[16px] hover:text-brand-orange transition-colors">
+          <Link href="https://drive.google.com/file/d/1lJRTuS9z36ybbHZxQff3itXo2vzhL3a4/view?usp=sharing" className="text-text-light font-PPMori-SemiBold text-[16px] hover:text-brand-orange transition-colors" target="_blank" rel="noopener noreferrer">
             Resume
           </Link>
         </div>
